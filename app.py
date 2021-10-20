@@ -39,8 +39,8 @@ def home():
     f"For Hawaii preciptiation data goto: /api/v1.0/precipitation <br/>"
     f"For a list of weather stations: /api/v1.0/stations <br/>"
     f"For the last 12 month temperature data from the most active station: /api/v1.0/tobs <br/>"
-    f"Temperature statistics from the start date (yyyy-mm-dd) try: /api/v1.0/start <br/>"
-    f"Temperature statistics from start to end dates in format (yyyy-mm-dd) /api/v1.0/start/end <br/>"
+    f"Temperature statistics from the start date (yyyy-mm-dd) try: /api/v1.0/yyyy-mm-dd <br/>"
+    f"Temperature statistics from start to end dates in format (yyyy-mm-dd) /api/v1.0/yyyy-mm-dd/yyyy-mm-dd <br/>"
     )
 
 
